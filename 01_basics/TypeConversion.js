@@ -55,6 +55,7 @@
  console.log(typeof valueInNumbers)  // Number
  console.log(valueInNumbers)         // 1
 
+
  /* Notes :-
    1 => true , 0 => false 
    "hello" => true , "hel001" => true
