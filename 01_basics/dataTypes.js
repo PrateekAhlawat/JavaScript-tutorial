@@ -17,14 +17,69 @@ let rollno;
 // undefine =>               e.g:-//  int rollno;
 // symbol => unique
 
-   /* OBJECT */
- console.log(typeof null)  //type => "object"
-   console.log(typeof age)  //type => "number"
+ console.log(typeof age)  //type => "number"
    console.log(typeof "Prateek")  //type => "string"
    console.log(typeof true)  //type => "boolean"
    console.log(typeof undefine)  //type => "undefine"
 
 console.table([name,age,isBoy,marks,rollno])
+
+
+    /* NON PRIMTIVE DATATYPES */
+   /* Objects
+      Array
+      Function
+   */
+
+//object
+ console.log(typeof null)  //type => "object"
+
+let myobj = {
+  MyName: "Prateek_Ahlawat",
+  Age: 22
+}
+console.log(myobj);
+
+
+//array
+let arr = ["Prateek", 16, "hello", true, "", null]
+ console.log(arr);
+
+//function
+const myFunction = function(){
+  console.log("Hello world")
+}
+
+
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack (Primitive)  and  Heap(Non-Primitive)
+
+let myName = "PRATEEK_AHLAWAT"
+let anotherName = myName    // Stack
+anotherName = "Yarsh_Kadiyan"
+
+console.log(myName); console.log(anotherName);   //value change only that variable which is to be change
+
+let user1 = {
+  email: "prateekahlawat@gmail.com",
+  password: "*********"
+}
+
+let user2 = user1             // Heap
+user2.email = "ahlawat@google.com" 
+
+console.log(user1);               // value change in both variable
+console.log(user2);
+
+
+
+
+ 
+  
 
 
 
