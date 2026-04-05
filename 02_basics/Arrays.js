@@ -15,10 +15,10 @@
 // console.log(arr.includes(3))
 
 //Sorting:
-// const a = [10,40,31,71,4,11]
-// arr.sort((a-b)=>a-b);  // a=40 b=20  (a-b) => -ve (a then b) or +ve (b then a)
+const a = [10,40,31,71,4,11]
+arr.sort((a,b)=>a-b);  // a=40 b=20  (a-b) => -ve (a then b) or +ve (b then a)
 
-// console.log(a)
+console.log(arr)
 // console.log(arr.reverse())
 // arr.push(10)
 
@@ -61,10 +61,10 @@
 //  console.log(allheros) 
 
 // Flattering
-const arr1 = [1,2,3,4,[5,6,7,[8,9,[10,[11],50],22,],70],100]
+// const arr1 = [1,2,3,4,[5,6,7,[8,9,[10,[11],50],22,],70],100]
 // console.log(arr1[4][3][2][0]) :10 
 
-console.log(arr1.flat(Infinity))
+// console.log(arr1.flat(Infinity))
 
   //something new:-
 // const UnsolvedArr = [1,2,3,[4,5,[6,7,[8],9],[10]]]
